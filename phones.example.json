@@ -1,0 +1,16 @@
+{
+  "phones": [
+    {
+      "serial": "R5CT43FH66Z",
+      "name": "Phone 1",
+      "enabled": true,
+      "discovered_state": "device"
+    },
+    {
+      "serial": "R5CT5057RXE",
+      "name": "Phone 6",
+      "enabled": false,
+      "discovered_state": "device"
+    }
+  ]
+}

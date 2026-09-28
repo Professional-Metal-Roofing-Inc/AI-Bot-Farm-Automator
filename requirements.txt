@@ -1,0 +1,22 @@
+# Install with:  .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# Versions are pinned because this drives real phones and sends real messages:
+# a surprise upgrade of uiautomator2 or adbutils can change how the screen is
+# read. Upgrade deliberately, then re-run a phone with --check-phone.
+
+# Driving the phones
+uiautomator2==3.7.0
+adbutils==2.12.0
+
+# The AI provider (OpenRouter speaks the OpenAI protocol)
+openai==2.46.0
+
+# Settings in .env
+python-dotenv==1.2.2
+
+# The review app
+fastapi==0.139.2
+uvicorn==0.51.0
+
+# Pulled in automatically, listed so you know what is there:
+#   httpx (by openai), pillow (by uiautomator2), pydantic and starlette (by fastapi)
